@@ -110,7 +110,6 @@ const stonkSlice = createSlice({
   extraReducers: {
     [getAppleData.fulfilled]: (state, action) => {
       const appleData = action.payload;
-      console.log(appleData);
       state.stonks = [...state.stonks, ...appleData];
     },
   },
