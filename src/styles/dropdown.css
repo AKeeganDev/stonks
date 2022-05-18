@@ -1,0 +1,31 @@
+:root {
+  --select-border: #777;
+  --select-focus: blue;
+}
+
+.select::after {
+  content: "";
+  width: 0.8em;
+  height: 0.5em;
+  clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+}
+
+select {
+  padding: 15px;
+  background-color: white;
+  text-align: center;
+  max-width: 600px;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.select {
+  padding: 20px 0;
+}
+
+option {
+  border-radius: 10px 10px 10px 10px;
+}
