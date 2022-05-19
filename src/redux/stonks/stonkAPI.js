@@ -8,7 +8,7 @@ const asyncStore = [
     volume: 58175538,
     misc: {
       stonkName: 'Apple',
-      category: 'tech',
+      category: 'Technology',
     },
   },
   {
@@ -25,7 +25,7 @@ const asyncStore = [
     price: 73.8776,
     volume: 8886812,
     misc: {
-      stonkName: 'Starbux',
+      stonkName: 'Starbucks',
       category: 'Food Franchise',
     },
   },
@@ -81,7 +81,7 @@ export const getAppleData = createAsyncThunk('stonks/getData', async () => async
 // const nameMap = {
 //   AAPL: {
 //     stonkName: 'Apple',
-//     catgory: 'tech',
+//     catgory: 'technology',
 //   },
 //   FORD: {
 //     stonkName: 'Ford',

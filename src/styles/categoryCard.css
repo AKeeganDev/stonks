@@ -1,0 +1,20 @@
+.categoryCard {
+  padding: 40px;
+  border: 1px solid black;
+  width: 100%;
+  display: flex;
+}
+
+.categoryCardItem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.categoryIcon {
+  font-size: 45px;
+}
+
+.categoryName {
+  font-size: 28px;
+}

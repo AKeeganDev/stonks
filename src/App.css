@@ -37,3 +37,10 @@
     transform: rotate(360deg);
   }
 }
+
+.basicStonk {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
