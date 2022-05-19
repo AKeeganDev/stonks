@@ -6,15 +6,22 @@
 }
 
 .categoryCardItem {
+  width: 100%;
   display: flex;
   gap: 10px;
   align-items: center;
+  justify-content: space-around;
 }
 
 .categoryIcon {
   font-size: 45px;
+  color: hsla(347, 96%, 26%, 1);
 }
 
 .categoryName {
   font-size: 28px;
+}
+
+path {
+  stroke: hsla(347, 96%, 26%, 1);
 }

@@ -1,10 +1,60 @@
 .categoryCardContainer {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .categoryList {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.homeDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.totalStonks {
+  min-width: 289px;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  background-color: hsla(337, 81%, 50%, 0.76);
+}
+
+.totalText {
+  color: azure;
+  font-size: x-large;
+}
+
+.largeIcon {
+  font-size: 75px;
+  color: hsla(347, 96%, 26%, 1);
+}
+
+.categoryLI {
+  background-color: #ec4c8ac2;
+}
+
+.categoryLI:nth-child(odd) {
+  background-color: hsla(337, 81%, 50%, 0.76);
+}
+
+.categoryCard {
+  color: azure;
+  background-color: transparent;
+}
+
+.filterText {
+  text-align: inherit;
+  font-weight: 400;
+  padding: 10px 0;
+  font-size: larger;
+  color: azure;
 }

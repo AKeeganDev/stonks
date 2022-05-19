@@ -18,10 +18,12 @@ const CategoriesPage = () => {
       <ul className="categoryList">
         {data.map((stonk) => (
           <li key={stonk.misc.stonkName}>
-            <div className="basicStonk">
-              <span className="stonkIcon">{iconMap[stonk.misc.stonkName]}</span>
-              <span>{stonk.misc.stonkName}</span>
-            </div>
+            <button type="button" className="category">
+              <div className="basicStonk">
+                <span className="stonkIcon">{iconMap[stonk.misc.stonkName]}</span>
+                <span>{stonk.misc.stonkName}</span>
+              </div>
+            </button>
           </li>
         ))}
       </ul>
