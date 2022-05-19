@@ -7,6 +7,7 @@ import store from './redux/ConfigureStore';
 import { getAppleData } from './redux/stonks/stonkAPI';
 
 store.dispatch(getAppleData());
+console.log(Date.now());
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

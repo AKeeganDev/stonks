@@ -26,6 +26,7 @@
   align-items: center;
   padding: 30px;
   background-color: hsla(337, 81%, 50%, 0.76);
+  gap: 40px;
 }
 
 .totalText {
@@ -55,6 +56,7 @@
   text-align: inherit;
   font-weight: 400;
   padding: 10px 0;
-  font-size: larger;
+  font-size: x-large;
   color: azure;
+  margin: 20px 0 10px 0;
 }

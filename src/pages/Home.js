@@ -1,5 +1,6 @@
 import { useSelector } from 'react-redux';
 import { GiChart } from 'react-icons/gi';
+import { useNavigate } from 'react-router-dom';
 import CategoryCard from '../components/CategoryCard';
 import '../styles/home.css';
 
@@ -13,11 +14,11 @@ const Home = () => {
     (state) => state.stonks.stonks,
   );
 
+  const navigate = useNavigate();
+
   const stonksText = `Total Stonks: ${stonks.length}`;
 
-  const handleRedirect = (stonk) => {
-    window.location.href = `/${stonk}`;
-  };
+  const handleRedirect = (category) => `/${category}`;
 
   const categories = stonks.filter((stonk) => catList.includes(stonk.misc.category));
 
@@ -39,7 +40,7 @@ const Home = () => {
           <ul className="categoryList">
             {categories.map((stonk) => (
               <li className="categoryLI" key={stonk.misc.category}>
-                <button className="categoryCard" onClick={() => { handleRedirect(stonk.misc.category); }} type="button">
+                <button className="categoryCard" onClick={() => { navigate(handleRedirect(stonk.misc.category)); }} type="button">
                   <CategoryCard category={stonk.misc.category} />
                 </button>
               </li>
