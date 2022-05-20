@@ -60,3 +60,8 @@
   color: azure;
   margin: 20px 0 10px 0;
 }
+
+input {
+  margin-bottom: 20px;
+  padding: 10px;
+}
