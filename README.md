@@ -46,7 +46,8 @@ Give a ⭐️ if you like this project!
 ## Inspiration & Acknowledgments
 
 The inspiration for this project came from my course curriculum at Microverse.
-The design came from Creative Commons. Link to their license [HERE](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+
+credit: Nelson Sakwa is the author of the original design the Creative Commons License is  [HERE](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
 The study of JavaScript, React, Webpack usage, Axios, and API usage made this a perfect project for practice.
 
 ## 📝 License
