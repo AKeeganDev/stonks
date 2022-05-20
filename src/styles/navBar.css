@@ -1,0 +1,28 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ec4c8a;
+  color: white;
+  font-family: Lato, sans-serif;
+  font-weight: 800;
+  padding: 25px 0;
+}
+
+.settingsButton,
+.backButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.settingsButtonIcon,
+.backButtonIcon {
+  height: 40px;
+  font-size: 30px;
+  color: white;
+}
+
+.screenView {
+  font-size: 25px;
+}
