@@ -5,7 +5,7 @@ const mockAPIdata = [
     volume: 1337,
     misc: {
       category: 'Technology',
-      stonkName: 'Apple'
+      stonkName: 'Apple',
     },
   },
 ];
