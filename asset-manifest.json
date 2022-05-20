@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/stonks/static/css/main.c90cc336.css",
-    "main.js": "/stonks/static/js/main.f2f1aa5d.js",
+    "main.js": "/stonks/static/js/main.b0220a6c.js",
     "index.html": "/stonks/index.html",
     "main.c90cc336.css.map": "/stonks/static/css/main.c90cc336.css.map",
-    "main.f2f1aa5d.js.map": "/stonks/static/js/main.f2f1aa5d.js.map"
+    "main.b0220a6c.js.map": "/stonks/static/js/main.b0220a6c.js.map"
   },
   "entrypoints": [
     "static/css/main.c90cc336.css",
-    "static/js/main.f2f1aa5d.js"
+    "static/js/main.b0220a6c.js"
   ]
 }
