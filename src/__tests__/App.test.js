@@ -3,9 +3,9 @@ import renderer from 'react-test-renderer';
 import { BrowserRouter } from 'react-router-dom';
 import { render } from '@testing-library/react';
 import { Provider } from 'react-redux';
-import store from './redux/ConfigureStore';
+import store from '../redux/ConfigureStore';
 
-import Home from './pages/Home';
+import Home from '../pages/Home';
 
 describe('Pages renders correctly', () => {
   it('Home page renders correctly', () => {
