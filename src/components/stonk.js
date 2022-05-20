@@ -13,7 +13,7 @@ const Stonk = () => {
     symbol, price, volume, misc,
   } = data[0];
   const {
-    stonkName, category,
+    stonkName,
   } = misc;
 
   const cashFormatter = new Intl.NumberFormat('en-US', {
@@ -35,9 +35,6 @@ const Stonk = () => {
 
   const numberFormatter = new Intl.NumberFormat('en-US');
 
-  console.log(stonkName);
-  console.log(category);
-  console.log(symbol);
   const priceFormatted = cashFormatter.format(price);
   const volumeFormatted = numberFormatter.format(volume);
   const greeting = `${stonkName} Stonk Information`;
