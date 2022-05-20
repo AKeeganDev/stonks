@@ -47,7 +47,7 @@ Give a ⭐️ if you like this project!
 
 The inspiration for this project came from my course curriculum at Microverse.
 
-credit: Nelson Sakwa is the author of the original design the Creative Commons License is  [HERE](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
+credit: [Nelson Sakwa] (https://www.behance.net/sakwadesignstudio) is the author of the [original design](https://www.behance.net/gallery/31579789/Ballhead-App-(Free-PSDs)). Creative Commons License is [HERE](https://creativecommons.org/licenses/)
 The study of JavaScript, React, Webpack usage, Axios, and API usage made this a perfect project for practice.
 
 ## 📝 License
