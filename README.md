@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-Video Walkthrough: https://www.loom.com/share/67766757ea97401db9c41da0a0973611
+Video Walkthrough: https://www.loom.com/share/ab16e33dcc784f32bf2fa2266c377150
 
 Live site: [HERE!](https://akeegandev.github.io/stonks/)
 
