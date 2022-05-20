@@ -50,13 +50,13 @@ const Home = () => {
           <ul className="categoryList">
             {categoryList.length ? categoryList.map((stonk) => (
               <li className="categoryLI" key={stonk.misc.category}>
-                <button className="categoryCard" onClick={() => { navigate(handleRedirect(stonk.misc.category.toLowerCase())); }} type="button">
+                <button className="categoryCard" onClick={() => { navigate(handleRedirect(stonk.misc.category)); }} type="button">
                   <CategoryCard category={stonk.misc.category} />
                 </button>
               </li>
             )) : categories.map((stonk) => (
               <li className="categoryLI" key={stonk.misc.category}>
-                <button className="categoryCard" onClick={() => { navigate(handleRedirect(stonk.misc.category.toLowerCase())); }} type="button">
+                <button className="categoryCard" onClick={() => { navigate(handleRedirect(stonk.misc.category)); }} type="button">
                   <CategoryCard category={stonk.misc.category} />
                 </button>
               </li>
